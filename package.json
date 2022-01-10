@@ -1,21 +1,12 @@
 {
-  "name": "redux-flipper",
+  "name": "redux-flipper-colorized",
   "version": "2.0.1",
-  "description": "Redux middleware for flipper",
+  "description": "Redux middleware for flipper with colorized",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
-  "author": "jk-gan <junkai@hey.com> (https://github.com/jk-gan)",
-  "contributors": [
-    {
-      "name": "Wai Pai Lee",
-      "email": "pailee.wai@gmail.com",
-      "url": "https://plwai.com/"
-    }
-  ],
-  "homepage": "https://github.com/jk-gan/redux-flipper",
-  "bugs": "https://github.com/jk-gan/redux-flipper/issues",
+  "author": "snamiki1212 <snamiki1212@gmail.com> (https://github.com/snamiki1212)",
   "repository": {
-    "url": "https://github.com/jk-gan/redux-flipper",
+    "url": "https://github.com/snamiki1212/redux-flipper-colorized",
     "type": "git"
   },
   "files": [
