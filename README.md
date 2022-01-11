@@ -1,3 +1,11 @@
+# IMPORTANT
+
+- Replace `redux-flipper` with `redux-flipper-colorized` when reading this README
+
+- REF: Plugin of `redux-flipper-colorized` is [here](https://github.com/snamiki1212/flipper-plugin-redux-debugger-colorized0)
+
+---
+
 # Redux Flipper
 
 ![screenshot of the plugin](https://i.imgur.com/blqn8oT.png)
