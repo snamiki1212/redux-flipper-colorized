@@ -50,7 +50,7 @@ const createInitialAction = (store: any, config: Configuration) => {
     after: createStateForAction(initState, config),
   };
 
-  currentConnection.send('actionInit', state);
+  currentConnection?.send('actionInit', state);
 };
 
 const createDebugger =
@@ -59,12 +59,12 @@ const createDebugger =
     if (currentConnection == null) {
       addPlugin({
         getId() {
-          return 'flipper-plugin-redux-debugger';
+          return 'flipper-plugin-redux-debugger-colorized';
         },
         onConnect(connection: any) {
           currentConnection = connection;
 
-          currentConnection.receive(
+          currentConnection?.receive(
             'dispatchAction',
             (data: any, responder: any) => {
               console.log('flipper redux dispatch action data', data);
